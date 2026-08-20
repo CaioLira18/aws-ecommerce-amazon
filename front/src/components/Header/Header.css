@@ -1,0 +1,169 @@
+.header {
+  width: 100%;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.headerLeftLogos {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 15px;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 0 10px;
+  background-color: #131921;
+  color: white;
+}
+
+.barLogo img {
+  width: 20px;
+  margin-left: 10px;
+  filter: brightness(0) invert(1);
+}
+
+.header-amazonLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.header-amazonLogo span {
+  color: white;
+}
+
+.header-amazonLogo img {
+  width: 70px;
+}
+
+/* Location */
+
+.headerLocation {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 8px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.headerLocation:hover {
+  border-color: white;
+}
+
+.headerLocationPin {
+  width: 18px;
+  height: 18px;
+  color: white;
+  flex-shrink: 0;
+}
+
+.headerLocationText {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+
+.headerLocationText span {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.headerLocationText strong {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+}
+
+/* Right side options */
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.headerOption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.15;
+  padding: 6px 8px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.headerOption:hover {
+  border-color: white;
+}
+
+.headerOption span {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.headerOption strong {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+}
+
+.headerOptionArrow {
+  width: 10px;
+  height: 7px;
+  color: white;
+}
+
+/* Cart */
+
+.headerCart {
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
+.headerCartIconWrapper {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+.headerCartIcon {
+  width: 32px;
+  height: 32px;
+  color: white;
+}
+
+.headerCartBadge {
+  position: absolute;
+  top: -2px;
+  left: 14px;
+  min-width: 16px;
+  height: 16px;
+  padding: 0 3px;
+  border-radius: 8px;
+  background-color: #f08804;
+  color: #131921;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 16px;
+}
+
+.headerCart strong {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+}
